@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Propety Completions</string>
+	<key>scope</key>
+	<string>source.css meta.property-list -meta.property-value</string>
+	<key>settings</key>
+	<dict>
+		<key>completions</key>
+		<array>
+			<string>start</string>
+			<string>end</string>
+			<string>center</string>
+			<string>baseline</string>
+			<string>stretch</string>
+			<string>normal</string>
+			<string>reverse</string>
+			<string>inherit</string>
+			<string>single</string>
+			<string>multiple</string>
+			<string>horizontal</string>
+			<string>vertical</string>
+			<string>inline-axis</string>
+			<string>block-axis</string>
+			<string>justify</string>
+		</array>
+	</dict>
+	<key>uuid</key>
+	<string>A8645B6B-4FBD-4E35-8CA2-1A76D5049E87</string>
+</dict>
+</plist>

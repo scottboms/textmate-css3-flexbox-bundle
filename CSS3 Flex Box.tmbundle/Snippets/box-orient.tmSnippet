@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-moz-box-orient: ${1:horizontal|vertical|inline-axis|block-axis|inherit};
+-webkit-box-orient: ${1:horizontal|vertical|inline-axis|block-axis|inherit};
+box-orient: ${1:horizontal|vertical|inline-axis|block-axis|inherit};
+$0</string>
+	<key>name</key>
+	<string>box-orient</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>box-</string>
+	<key>uuid</key>
+	<string>5AA1066C-6ADA-4868-841C-556EE2DE40E1</string>
+</dict>
+</plist>
