@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>${TM_NEW_FILE_BASENAME}</title>
+		<style media="screen, projection">
+			#wrapper {
+				/* Display Box */
+				display: -webkit-box;
+				display: -moz-box;
+				display: -ms-box;
+				display: box;
+
+				/* Box Orient */
+				-webkit-box-orient: vertical;
+				-moz-box-orient: vertical;
+				-ms-box-orient: vertical;
+				box-orient: vertical;
+			}
+
+			header, footer {
+				-webkit-box-flex: 1;
+				-moz-box-flex: 1;
+				-ms-box-flex: 1;
+				box-flex: 1;
+			}
+
+			#main-content {
+				display: -webkit-box;
+				display: -moz-box;
+				display: -ms-box;
+				display: box;
+
+				-webkit-box-orient: horizontal;
+				-moz-box-orient: horizontal;
+				-ms-box-orient: horizontal;
+				box-orient: horizontal;
+			}
+
+			article {
+				-webkit-box-flex: 1;
+				-moz-box-flex: 1;
+				-ms-box-flex: 1;
+				box-flex: 1;
+			}
+		</style>
+	</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<h1>Flex Box Template</h1>
+		</header>
+		<section id="main-content">
+			<article>
+				<p>First article</p>
+			</article>
+			<article>
+				<p>Second article</p>
+			</article>
+			<article>
+				<p>Third article</p>
+			</article>
+		</section>
+
+		<footer>
+			<p>The footer</p>
+		</footer>
+	</div>
+</body>
+</html>
